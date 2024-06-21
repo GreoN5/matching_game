@@ -1,6 +1,5 @@
 import Game from "@/components/Game";
 import { CountryCapitalDto } from "@/@types/Country";
-import { Metadata } from "next";
 
 async function getCountryCapitalData(): Promise<
   CountryCapitalDto[] | undefined
@@ -19,10 +18,6 @@ async function getCountryCapitalData(): Promise<
     throw new Error("Error getting country data.");
   }
 }
-
-export const metadata: Metadata = {
-  title: "Matching game",
-};
 
 export default async function Home() {
   const data = await getCountryCapitalData();

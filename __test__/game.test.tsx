@@ -81,7 +81,7 @@ describe("Matching Game", () => {
   });
 
   test("disables selected country and capital after match", async () => {
-    const { getByText, getByTestId } = render(getGameWithData());
+    const { getByTestId } = render(getGameWithData());
 
     const franceCountry = getByTestId("France");
     fireEvent.dragStart(franceCountry);
