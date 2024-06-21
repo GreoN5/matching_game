@@ -55,6 +55,7 @@ Next.js: Chosen for its server-side rendering capabilities, which improve perfor
 React: Utilized for building user interfaces and managing component state.
 
 Tailwind CSS: Selected for its utility-first approach to styling, allowing rapid and consistent UI development.
+
 Jest: Employed for testing due to its powerful features and ease of use with React components.
 
 
