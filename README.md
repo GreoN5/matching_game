@@ -60,7 +60,7 @@ Jest: Employed for testing due to its powerful features and ease of use with Rea
 
 ## Challenges Faced
 SSR and State Management: Integrating server-side rendering with client-side state management was complex. 
-Managed to utilized Next.js's built-in SSR features and managed state using React hooks.
+Managed to utilized Next.js's built-in SSR features and managed state using React's built-in state management hooks.
 
 Drag-and-Drop Functionality: Implementing a user-friendly drag-and-drop interface with proper matching logic.
 Used popular react library instead of going from scratch and waisting valuable time - `react-beautiful-dnd`.
