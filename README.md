@@ -16,7 +16,7 @@ Ensure you have the following installed:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/GreoN5/matching-game.git matching-game
+git clone https://github.com/GreoN5/matching_game.git matching-game
 ```
 ```bash
 cd matching-game
